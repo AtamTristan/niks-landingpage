@@ -1,0 +1,203 @@
+
+
+
+body{
+    background-image: linear-gradient(to bottom, #232526, #414345);
+    color: white;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.main{
+  background-image: linear-gradient(to bottom, #009EFD, #2AF598);
+  margin: 100px;
+  border-radius: 5px;
+}
+
+footer{
+  display: inline;
+}
+
+.getStarted{
+  margin: 3em;
+  padding: 1.5em;
+}
+
+#header{
+  padding: 100px;
+}
+
+.divider{
+  border-bottom: 1px solid black;
+  margin: 2px 0;
+}
+
+.flex-content{
+  display: flex;
+  flex-wrap: wrap;
+
+  
+  
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-content > section{
+  width: 500px;
+  margin: 30px;
+}
+
+.flex-content + .features> li{
+  max-width: 20%;
+  margin: 30px;
+  text-align: center;
+  box-sizing: inherit;
+}
+
+ul{
+  list-style-type: none;
+}
+
+img {
+    
+    display: block;
+    border-radius: 100%;
+    width: 16em;
+}
+
+.image{
+  margin-top: 60px;
+  border: solid 1px;
+  border-radius: 100%;
+  padding: 0.65em;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-image: linear-gradient(to bottom, #DCE4EF, #F4F4F4);
+  /* Setzen Sie eine hohe Z-Index-Zahl, um sicherzustellen, dass die Navbar über dem Inhalt liegt */
+}
+
+
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  color: black;
+}
+
+nav > ul > li {
+  /*color: #dfdfe2;*/
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: #dfdfe2;
+  color: #1b1b32;
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.centered{
+  text-align: center;
+}
+
+.content {
+  /* Setzen Sie den oberen Abstand des Inhalts auf die Höhe der Navbar */
+  margin-top: 60px;
+  max-width: 500px;
+}
+
+
+
+.intro{
+  flex-direction: row;
+  box-sizing: inherit;
+  align-items: center;
+    margin: 0 0 2em 0;
+}
+
+.button{
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  border-radius: 8px;
+  border: 10;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 300;
+  height: 2.75em;
+  line-height: 2.75em;
+  min-width: 9.25em;
+  padding: 0 1.5em;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: white;
+  color: black;
+  margin-top: 1em;
+}
+
+
+.primary{
+  background-color: #8cc9f0;
+  box-shadow: none;
+}
+
+.icon.alt {
+    border-color: rgba(255, 255, 255, 0.35);
+    color: #ffffff;
+}
+.icon.alt {
+    display: inline-block;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 100%;
+}
+
+.icons > li:hover {
+  background-color: rgba(255, 255, 255, 0.075);
+  cursor: pointer;
+}
+
+/**, *:before, *:after {
+    box-sizing: inherit;
+}*/
+
+.icon.major {
+    display: inline-block;
+    padding: 1em;
+    border: solid 1px;
+    border-radius: 100%;
+}
+
+
+@media screen and (max-width: 1200px) {.intro {
+    flex-direction: column-reverse;
+    text-align: center;
+}}
+
+
+
+
+.features{
+  flex-direction: row;
+}
