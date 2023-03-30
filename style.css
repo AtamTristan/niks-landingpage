@@ -11,15 +11,10 @@ body{
 
 .main{
   background-image: linear-gradient(to bottom, #009EFD, #2AF598);
-  margin: 10%;
+  margin: 5%;
   border-radius: 5px;
 }
 
-@media screen and (max-width: 800px){
-  .main{
-    margin: 10% 0;
-  }
-}
 
 footer{
   display: inline;
